@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body{
-    background-color: rgb(24, 25, 33);
-    }
+    /*background-color: rgb(24, 25, 33); */
+    background-image: url(img/background-image.png);
+}
 
 .navbar{
     margin-bottom: 75px;
@@ -117,11 +118,16 @@ iframe{
     font-weight: 500;
 }
 
+iframe{
+    width: 80%;
+    height: 450px;
+}
+
 /* Custom CSS for larger screens (desktop) */
 @media (min-width: 992px) {
     .video-container {
         max-width: 100%;
-        width: 80%; /* Adjust the video width as needed */
+        width: 100%; /* Adjust the video width as needed */
         margin: 0 auto;
     }
 }
