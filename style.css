@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-color: rgb(24, 25, 33);
+    }
+
+.navbar{
+    margin-bottom: 75px;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover{
+    color: #4484eb;
+}
+
+.discord:hover{
+    color: #7289da;
+}
+.youtube:hover{
+    color: #ff0000;
+}
+
+.instagram:hover{
+    color: #e4405f;
+}
+
+.tiktok:hover{
+    color: #69c9d0;
+}
+
+.twitch:hover{
+    color: #9147ff;
+}
+
+.teamgrow-bookmark {
+    color: white;
+    background-color: #4484eb;
+    border: 2px solid #4484eb;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.teamgrow-bookmark:active{
+    background-color: #4484eb;
+    color: white;
+    
+}
+
+.teamgrow-bookmark:hover{
+    color: white;
+    background-color: #4c90ff;
+}
+
+iframe{
+    border: 5px solid #4484eb;
+    border-style: groove;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 25px 0 25px black;
+}
+
+.section-title{
+    color: white;
+}
+
+.section-team{
+    color: white;
+}
+
+.section-grow{
+    color: #4484eb;
+}
+
+.section-description{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.section-description-info{
+    color: white;
+    background-color: #4484eb;
+    border: 2px solid #4484eb;
+    border-radius: 5px;
+    padding: 1px;
+    font-weight: 500;
+    box-shadow: 2px 2px 25px black;
+    opacity: 0.7;
+}
+
+.teamgrow-bookmark-button{
+    color: #4484eb;
+    background-color: white;
+    font-size: 1.5rem;
+    border: 2px solid #4484eb;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+    font-weight: 500;
+    box-shadow: 10px 10px 25px black;
+    letter-spacing: 3px;
+}
+
+.fa-arrow-left{
+    margin-left: 20px;
+    height: 30px;
+}
+
+.info-teamgrow-bookmark{
+    color: white;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .video-container {
+        max-width: 100%;
+        width: 80%; /* Adjust the video width as needed */
+        margin: 0 auto;
+    }
+}
